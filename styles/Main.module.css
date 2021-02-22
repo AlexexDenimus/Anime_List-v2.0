@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: 450px 450px 450px 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px 20px;
+}
+
+.main {
+  padding: 24px 48px 0;
+}
+
+.pageButton {
+  background: #1b1b1b;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
