@@ -49,9 +49,9 @@ export default function Home({ animeList, count }) {
               </div>
             </Link>
           ))}
-          <div>
-            <Buttons page={Number(router.query.page || 1)} buttons={buttons} />
-          </div>
+        </div>
+        <div>
+          <Buttons page={Number(router.query.page || 1)} buttons={buttons} />
         </div>
       </div>
     </div>

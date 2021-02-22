@@ -56,14 +56,11 @@ export default function MyAnime({ animeList, count }) {
               </div>
             </Link>
           ))}
-          <div>
-            {count > 2 && (
-              <Buttons
-                page={Number(router.query.page || 1)}
-                buttons={buttons}
-              />
-            )}
-          </div>
+        </div>
+        <div>
+          {count > 2 && (
+            <Buttons page={Number(router.query.page || 1)} buttons={buttons} />
+          )}
         </div>
       </div>
     </div>
